@@ -1,0 +1,1403 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BlueStackBiddingAdapter",
+    "printedName": "BlueStackBiddingAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppHeaderBiddingAdapter",
+        "printedName": "InAppHeaderBiddingAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppHeaderBiddingAdapter",
+                "printedName": "BlueStackBiddingAdapter.InAppHeaderBiddingAdapter",
+                "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)initWithParameters:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C10parametersACSDys11AnyHashableVypG_tcfc",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "initWithParameters:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "releaseMemory",
+            "printedName": "releaseMemory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)releaseMemory",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C13releaseMemoryyyF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "releaseMemory",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableDebugLog",
+            "printedName": "enableDebugLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)enableDebugLog:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C14enableDebugLogyySbF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "enableDebugLog:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createBanner",
+            "printedName": "createBanner(inFrame:withPreferences:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BlueStackSDK.MNGPreference?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNGPreference",
+                    "printedName": "BlueStackSDK.MNGPreference",
+                    "usr": "c:objc(cs)MNGPreference"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)createBannerInFrame:withPreferences:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C12createBanner7inFrame15withPreferencesySo6CGRectV_So13MNGPreferenceCSgtKF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "createBannerInFrame:withPreferences:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createInterstitial",
+            "printedName": "createInterstitial(withPreferences:autoDisplayed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BlueStackSDK.MNGPreference?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNGPreference",
+                    "printedName": "BlueStackSDK.MNGPreference",
+                    "usr": "c:objc(cs)MNGPreference"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)createInterstitialWithPreferences:autoDisplayed:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C18createInterstitial15withPreferences13autoDisplayedySo13MNGPreferenceCSg_SbtKF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "createInterstitialWithPreferences:autoDisplayed:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isInterstitialReady",
+            "printedName": "isInterstitialReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)isInterstitialReady",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C19isInterstitialReadySbyF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "isInterstitialReady",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayInterstitial",
+            "printedName": "displayInterstitial()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)displayInterstitial",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C19displayInterstitialSbyF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "displayInterstitial",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(fromRootViewController:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)showAdFromRootViewController:animated:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C6showAd22fromRootViewController8animatedySo06UIViewM0CSg_SbtF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "showAdFromRootViewController:animated:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createInfeed",
+            "printedName": "createInfeed(inFrame:withPreferences:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BlueStackSDK.MNGPreference?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNGPreference",
+                    "printedName": "BlueStackSDK.MNGPreference",
+                    "usr": "c:objc(cs)MNGPreference"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)createInfeedInFrame:withPreferences:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C12createInfeed7inFrame15withPreferencesySo6CGRectV_So13MNGPreferenceCSgtKF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "createInfeedInFrame:withPreferences:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadRewardedVideoAd",
+            "printedName": "loadRewardedVideoAd(withPreferences:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BlueStackSDK.MNGPreference?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNGPreference",
+                    "printedName": "BlueStackSDK.MNGPreference",
+                    "usr": "c:objc(cs)MNGPreference"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)loadRewardedVideoAdWithPreferences:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C19loadRewardedVideoAd15withPreferencesySo13MNGPreferenceCSg_tF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "loadRewardedVideoAdWithPreferences:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createNative",
+            "printedName": "createNative(withPreferences:withCover:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "BlueStackSDK.MNGPreference?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MNGPreference",
+                    "printedName": "BlueStackSDK.MNGPreference",
+                    "usr": "c:objc(cs)MNGPreference"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)createNativeWithPreferences:withCover:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C12createNative15withPreferences0J5CoverySo13MNGPreferenceCSg_SbtKF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "objc_name": "createNativeWithPreferences:withCover:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppHeaderBiddingAdapter",
+                "printedName": "BlueStackBiddingAdapter.InAppHeaderBiddingAdapter",
+                "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)init",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0CACycfc",
+            "moduleName": "BlueStackBiddingAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoadAd",
+            "printedName": "onLoadAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingBannerAd",
+                "printedName": "any BlueStackSDK.BiddingBannerAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingBannerAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onLoadBiddingBannerAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C8onLoadAdyy0aB3SDK0c6BannerJ0_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onLoadBiddingBannerAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailToLoad",
+            "printedName": "onFailToLoad(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingBannerAd",
+                "printedName": "any BlueStackSDK.BiddingBannerAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingBannerAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onFailToLoadBiddingBannerAd:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C12onFailToLoadyy0aB3SDK0C8BannerAd_p_s5Error_ptF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onFailToLoadBiddingBannerAd:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClick",
+            "printedName": "onClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingBannerAd",
+                "printedName": "any BlueStackSDK.BiddingBannerAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingBannerAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onClickBiddingBannerAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C7onClickyy0aB3SDK0C8BannerAd_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onClickBiddingBannerAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLoadAd",
+            "printedName": "onLoadAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingInterstitialAd",
+                "printedName": "any BlueStackSDK.BiddingInterstitialAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onLoadBiddingInterstitialAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C8onLoadAdyy0aB3SDK0c12InterstitialJ0_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onLoadBiddingInterstitialAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFailToLoad",
+            "printedName": "onFailToLoad(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingInterstitialAd",
+                "printedName": "any BlueStackSDK.BiddingInterstitialAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingInterstitialAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onFailToLoadBiddingInterstitialAd:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C12onFailToLoadyy0aB3SDK0C14InterstitialAd_p_s5Error_ptF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onFailToLoadBiddingInterstitialAd:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClick",
+            "printedName": "onClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BiddingInterstitialAd",
+                "printedName": "any BlueStackSDK.BiddingInterstitialAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)BiddingInterstitialAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onClickBiddingInterstitialAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C7onClickyy0aB3SDK0C14InterstitialAd_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onClickBiddingInterstitialAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDisplay",
+            "printedName": "onDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentableBiddingAd",
+                "printedName": "any BlueStackSDK.FullScreenPresentableBiddingAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenPresentableBiddingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onDisplayFullScreenBiddingAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C9onDisplayyy0aB3SDK021FullScreenPresentableC2Ad_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onDisplayFullScreenBiddingAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDisplayFailed",
+            "printedName": "onDisplayFailed(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentableBiddingAd",
+                "printedName": "any BlueStackSDK.FullScreenPresentableBiddingAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenPresentableBiddingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onDisplayFailedFullScreenBiddingAd:error:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C15onDisplayFailedyy0aB3SDK021FullScreenPresentableC2Ad_p_s5Error_ptF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onDisplayFailedFullScreenBiddingAd:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDismiss",
+            "printedName": "onDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentableBiddingAd",
+                "printedName": "any BlueStackSDK.FullScreenPresentableBiddingAd",
+                "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenPresentableBiddingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)onDismissFullScreenBiddingAd:",
+            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C9onDismissyy0aB3SDK021FullScreenPresentableC2Ad_pF",
+            "moduleName": "BlueStackBiddingAdapter",
+            "objc_name": "onDismissFullScreenBiddingAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter",
+        "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C",
+        "moduleName": "BlueStackBiddingAdapter",
+        "objc_name": "InAppHeaderBiddingAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)MNGAdsAdapter",
+        "superclassNames": [
+          "BlueStackSDK.MNGAdsAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BiddingBannerAdDelegate",
+            "printedName": "BiddingBannerAdDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)BiddingBannerAdDelegate",
+            "mangledName": "$s12BlueStackSDK23BiddingBannerAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BiddingInterstitialAdDelegate",
+            "printedName": "BiddingInterstitialAdDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)BiddingInterstitialAdDelegate",
+            "mangledName": "$s12BlueStackSDK29BiddingInterstitialAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FullScreenBiddingAdDelegate",
+            "printedName": "FullScreenBiddingAdDelegate",
+            "usr": "c:@M@BlueStackSDK@objc(pl)FullScreenBiddingAdDelegate",
+            "mangledName": "$s12BlueStackSDK27FullScreenBiddingAdDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BiddingAdType",
+        "printedName": "BiddingAdType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12BlueStackSDK13BiddingAdTypeO0abD7AdapterE11descriptionSSvp",
+            "mangledName": "$s12BlueStackSDK13BiddingAdTypeO0abD7AdapterE11descriptionSSvp",
+            "moduleName": "BlueStackBiddingAdapter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BlueStackSDK13BiddingAdTypeO0abD7AdapterE11descriptionSSvg",
+                "mangledName": "$s12BlueStackSDK13BiddingAdTypeO0abD7AdapterE11descriptionSSvg",
+                "moduleName": "BlueStackBiddingAdapter",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12BlueStackSDK13BiddingAdTypeO",
+        "mangledName": "$s12BlueStackSDK13BiddingAdTypeO",
+        "moduleName": "BlueStackSDK",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 9,
+      "value": "\"5.4.0.0\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 36,
+      "value": "\"com.bluestackbidding.adapter.error\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 383,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 4,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 4,
+      "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 641,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 4,
+      "value": "1008"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 8,
+      "value": "\"params\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 10,
+      "value": "\"adLoader\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 12,
+      "value": "\"impression\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 923,
+      "length": 13,
+      "value": "\"bannerFrame\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 25,
+      "value": "\"supplyChainObjectString\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1038,
+      "length": 10,
+      "value": "\"adServer\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 17,
+      "value": "\"display_manager\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 25,
+      "value": "\"display_manager_version\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 9,
+      "value": "\"request\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 16,
+      "value": "\"banner_ad_size\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1338,
+      "length": 14,
+      "value": "\"AmazonBidder\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 39,
+      "value": "\"BlueStackEquativAdapter.EquativBidder\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 37,
+      "value": "\"BlueStackPrebidAdapter.PrebidBidder\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/ErrorUtils.swift",
+      "kind": "Dictionary",
+      "offset": 3351,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/InAppHeaderBiddingAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 25,
+      "value": "\"BlueStackBiddingAdapter\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 21,
+      "value": "\"BiddingAdapterError\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 21,
+      "value": "\"BiddingAdapterDebug\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 329,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 464,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

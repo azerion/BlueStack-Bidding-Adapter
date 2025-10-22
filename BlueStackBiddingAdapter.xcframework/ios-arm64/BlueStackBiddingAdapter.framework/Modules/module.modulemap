@@ -1,0 +1,6 @@
+framework module BlueStackBiddingAdapter {
+  umbrella header "BlueStackBiddingAdapter.h"
+  export *
+
+  module * { export * }
+}
