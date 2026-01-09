@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BlueStackBiddingAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import AdSupport
+@_exported import BlueStackBiddingAdapter
+import BlueStackSDK
+import BlueStackUtilities
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(InAppHeaderBiddingAdapter) public class InAppHeaderBiddingAdapter : BlueStackSDK.MNGAdsAdapter {
+  @objc override dynamic public init(parameters: [Swift.AnyHashable : Any])
+  @objc override dynamic public func releaseMemory()
+  @objc override dynamic public func enableDebugLog(_ enabled: Swift.Bool)
+  @objc override dynamic public func createBanner(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.MNGPreference!) throws
+  @objc override dynamic public func createInterstitial(withPreferences preferences: BlueStackSDK.MNGPreference!, autoDisplayed: Swift.Bool) throws
+  @objc override dynamic public func isInterstitialReady() -> Swift.Bool
+  @objc override dynamic public func displayInterstitial() -> Swift.Bool
+  @objc override dynamic public func showAd(fromRootViewController rootViewController: UIKit.UIViewController!, animated flag: Swift.Bool)
+  @objc override dynamic public func createInfeed(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.MNGPreference!) throws
+  @objc override dynamic public func loadRewardedVideoAd(withPreferences preferences: BlueStackSDK.MNGPreference!)
+  @objc override dynamic public func createNative(withPreferences preferences: BlueStackSDK.MNGPreference!, withCover cover: Swift.Bool) throws
+  @objc deinit
+}
+extension BlueStackBiddingAdapter.InAppHeaderBiddingAdapter : BlueStackSDK.BiddingBannerAdDelegate {
+  @objc dynamic public func onLoadAd(_ biddingBannerAd: any BlueStackSDK.BiddingBannerAd)
+  @objc dynamic public func onFailToLoad(_ biddingBannerAd: any BlueStackSDK.BiddingBannerAd, _ error: any Swift.Error)
+  @_Concurrency.MainActor @objc dynamic public func onClick(_ biddingBannerAd: any BlueStackSDK.BiddingBannerAd)
+}
+extension BlueStackBiddingAdapter.InAppHeaderBiddingAdapter : BlueStackSDK.BiddingInterstitialAdDelegate {
+  @objc dynamic public func onLoadAd(_ biddingInterstitialAd: any BlueStackSDK.BiddingInterstitialAd)
+  @objc dynamic public func onFailToLoad(_ biddingInterstitialAd: any BlueStackSDK.BiddingInterstitialAd, _ error: any Swift.Error)
+  @_Concurrency.MainActor @objc dynamic public func onClick(_ biddingInterstitialAd: any BlueStackSDK.BiddingInterstitialAd)
+}
+extension BlueStackBiddingAdapter.InAppHeaderBiddingAdapter : BlueStackSDK.FullScreenBiddingAdDelegate {
+  @_Concurrency.MainActor @objc dynamic public func onDisplay(_ fullScreenBiddingAd: any BlueStackSDK.FullScreenPresentableBiddingAd)
+  @_Concurrency.MainActor @objc dynamic public func onDisplayFailed(_ fullScreenBiddingAd: any BlueStackSDK.FullScreenPresentableBiddingAd, _ error: any Swift.Error)
+  @_Concurrency.MainActor @objc dynamic public func onDismiss(_ fullScreenBiddingAd: any BlueStackSDK.FullScreenPresentableBiddingAd)
+}
+extension BlueStackSDK.BiddingAdType : @retroactive Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}

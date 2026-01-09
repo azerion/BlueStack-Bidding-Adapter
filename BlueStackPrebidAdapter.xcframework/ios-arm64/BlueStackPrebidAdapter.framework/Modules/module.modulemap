@@ -1,0 +1,6 @@
+framework module BlueStackPrebidAdapter {
+  umbrella header "BlueStackPrebidAdapter.h"
+  export *
+
+  module * { export * }
+}
