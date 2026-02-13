@@ -29,7 +29,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/prebid/prebid-mobile-ios.git",
-            exact: "3.1.0"
+            exact: "3.2.0"
         )
     ],
     targets: [
