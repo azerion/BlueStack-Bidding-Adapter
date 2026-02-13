@@ -3,6 +3,6 @@
 
 import Foundation
 
-// Re-export the frameworks so they're available to consumers
-@_exported import BlueStackBiddingAdapter
-@_exported import BlueStackPrebidAdapter
+// This file exists to create a target that can depend on both the binary frameworks
+// and the SPM dependencies (BlueStackSDK, PrebidMobile).
+// The dependencies are linked at the target level in Package.swift.

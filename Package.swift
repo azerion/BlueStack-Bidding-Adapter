@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,18 +14,23 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.4.0"),
-        .package(url: "https://github.com/prebid/prebid-mobile-ios.git", exact: "3.2.0")
+        .package(url: "https://github.com/prebid/prebid-mobile-ios.git", exact: "3.1.0")
     ],
     targets: [
         .target(
             name: "BlueStackBiddingAdapterTarget",
             dependencies: [
-                .product(name: "PrebidMobile", package: "prebid-mobile-ios"),
                 .target(name: "BlueStackBiddingAdapter", condition: .when(platforms: [.iOS])),
                 .target(name: "BlueStackPrebidAdapter", condition: .when(platforms: [.iOS])),
-                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
+                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS])),
+                .product(name: "PrebidMobile", package: "prebid-mobile-ios", condition: .when(platforms: [.iOS]))
             ],
-            path: "BlueStackBiddingAdapterWrapper"
+            path: "BlueStackBiddingAdapterWrapper",
+            linkerSettings: [
+                .linkedFramework("Foundation"),
+                .linkedFramework("UIKit"),
+                .linkedFramework("CoreGraphics")
+            ]
         ),
         .binaryTarget(
             name: "BlueStackBiddingAdapter",
