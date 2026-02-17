@@ -16,6 +16,40 @@
       },
       {
         "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BlueStackSDK",
         "printedName": "BlueStackSDK",
         "declKind": "Import",
@@ -1050,40 +1084,6 @@
         "kind": "Import",
         "name": "BlueStackUtilities",
         "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
         "declKind": "Import",
         "moduleName": "BlueStackBiddingAdapter"
       },

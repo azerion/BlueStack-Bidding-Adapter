@@ -13,8 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.4.0"),
-        .package(url: "https://github.com/prebid/prebid-mobile-ios.git", exact: "3.1.0")
+        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.4.0")
     ],
     targets: [
         .target(
@@ -22,15 +21,11 @@ let package = Package(
             dependencies: [
                 .target(name: "BlueStackBiddingAdapter", condition: .when(platforms: [.iOS])),
                 .target(name: "BlueStackPrebidAdapter", condition: .when(platforms: [.iOS])),
-                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS])),
-                .product(name: "PrebidMobile", package: "prebid-mobile-ios", condition: .when(platforms: [.iOS]))
+                .target(name: "PrebidMobile", condition: .when(platforms: [.iOS])),
+                .target(name: "OMSDK_Prebidorg", condition: .when(platforms: [.iOS])),
+                .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
             ],
-            path: "BlueStackBiddingAdapterWrapper",
-            linkerSettings: [
-                .linkedFramework("Foundation"),
-                .linkedFramework("UIKit"),
-                .linkedFramework("CoreGraphics")
-            ]
+            path: "BlueStackBiddingAdapterWrapper"
         ),
         .binaryTarget(
             name: "BlueStackBiddingAdapter",
@@ -39,6 +34,14 @@ let package = Package(
         .binaryTarget(
             name: "BlueStackPrebidAdapter",
             path: "BlueStackPrebidAdapter.xcframework"
+        ),
+        .binaryTarget(
+            name: "PrebidMobile",
+            path: "XCPrebidMobile.xcframework"
+        ),
+        .binaryTarget(
+            name: "OMSDK_Prebidorg",
+            path: "OMSDK_Prebidorg.xcframework"
         )
     ]
 )
