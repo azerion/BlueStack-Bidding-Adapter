@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PrebidMobile
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdSupport
 import AppTrackingTransparency
 import CoreLocation
@@ -203,7 +203,7 @@ import ObjectiveC.runtime
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBAdConfiguration : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBAdConfiguration : ObjectiveC.NSObject {
   @objc public var maxVideoDuration: Foundation.NSNumber?
   @objc public var isMuted: Foundation.NSNumber?
   @objc public var closeButtonArea: Foundation.NSNumber?
@@ -232,7 +232,7 @@ import ObjectiveC.runtime
   @objc func initializeNativeVideoSession(_ videoView: UIKit.UIView, verificationParameters: PrebidMobile.VideoVerificationParameters?) -> (any PrebidMobile.OMSession)?
   @objc func initializeNativeDisplaySession(_ view: UIKit.UIView, omidJSUrl: Swift.String, vendorKey: Swift.String?, parameters: Swift.String?) -> (any PrebidMobile.OMSession)?
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedCompletionVideoEndcard : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedCompletionVideoEndcard : ObjectiveC.NSObject {
   @objc public var time: Foundation.NSNumber?
   @objc public var event: Swift.String?
   @objc override dynamic public init()
@@ -325,7 +325,7 @@ public let PBMMediationTargetingInfoKey: Swift.String
 public let PBMMediationAdNativeResponseKey: Swift.String
 public let PBMMediationVideoAdConfiguration: Swift.String
 public let PBMMediationVideoParameters: Swift.String
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedCompletionBanner : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedCompletionBanner : ObjectiveC.NSObject {
   @objc public var time: Foundation.NSNumber?
   @objc public var event: Swift.String?
   @objc override dynamic public init()
@@ -335,7 +335,7 @@ public let PBMMediationVideoParameters: Swift.String
   }
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedReward : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedReward : ObjectiveC.NSObject {
   @objc public var type: Swift.String?
   @objc public var count: Foundation.NSNumber?
   @objc public var ext: [Swift.String : Any]?
@@ -414,7 +414,7 @@ public typealias WinNotifierBlock = (_ bid: PrebidMobile.Bid, _ adMarkupConsumer
   @objc final public func generateInstreamUriForGAM(adUnitID: Swift.String, adSlotSizes: [PrebidMobile.IMAAdSlotSize], customKeywords: [Swift.String : Swift.String]?) throws -> Swift.String
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBBidResponseExtPrebid : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBBidResponseExtPrebid : ObjectiveC.NSObject {
   @objc public var passthrough: [PrebidMobile.ORTBExtPrebidPassthrough]?
   @objc override dynamic public init()
   @objc required public init(jsonDictionary: [Swift.String : Any])
@@ -463,6 +463,8 @@ public typealias WinNotifierBlock = (_ bid: PrebidMobile.Bid, _ adMarkupConsumer
   @objc public func fetchDemand(completion: ((PrebidMobile.ResultCode) -> Swift.Void)?)
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ImpressionTasksExecutor {
@@ -509,7 +511,7 @@ public typealias WinNotifierBlock = (_ bid: PrebidMobile.Bid, _ adMarkupConsumer
   @objc optional func adWasClicked(ad: PrebidMobile.NativeAd)
   @objc optional func adDidLogImpression(ad: PrebidMobile.NativeAd)
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedCompletionVideo : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedCompletionVideo : ObjectiveC.NSObject {
   @objc public var time: Foundation.NSNumber?
   @objc public var playbackevent: Swift.String?
   @objc public var endcard: PrebidMobile.ORTBRewardedCompletionVideoEndcard?
@@ -567,6 +569,8 @@ public typealias WinNotifierBlock = (_ bid: PrebidMobile.Bid, _ adMarkupConsumer
   @objc public func show(from controller: UIKit.UIViewController)
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc deinit
 }
 @objc public enum NativeDataAssetType : Swift.Int {
@@ -603,7 +607,7 @@ public typealias PBMNetworkReachableBlock = (PrebidMobile.Reachability?) -> Swif
   @objc public func stopNotifier()
   @objc public func onNetworkRestored(_ reachableBlock: @escaping PrebidMobile.PBMNetworkReachableBlock)
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ORTBBidResponseExt : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc open class ORTBBidResponseExt : ObjectiveC.NSObject {
   @objc public var responsetimemillis: [Swift.String : Foundation.NSNumber]?
   @objc public var tmaxrequest: Foundation.NSNumber?
   @objc public var extPrebid: PrebidMobile.ORTBBidResponseExtPrebid?
@@ -725,6 +729,7 @@ public typealias VoidBlock = () -> Swift.Void
   @objc public var itunesID: Swift.String?
   @objc public var location: CoreLocation.CLLocation?
   @objc public var coordinate: Foundation.NSValue?
+  @objc public var locationPrecision: Foundation.NSNumber?
   @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc public func addParam(_ value: Swift.String, withName: Swift.String?)
@@ -937,7 +942,7 @@ extension UIKit.UIView {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc(PBMORTBSDKConfiguration) public class ORTBSDKConfiguration : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc(PBMORTBSDKConfiguration) open class ORTBSDKConfiguration : ObjectiveC.NSObject {
   @objc public var cftBanner: Foundation.NSNumber?
   @objc public var cftPreRender: Foundation.NSNumber?
   @objc override dynamic public init()
@@ -1094,7 +1099,7 @@ extension UIKit.UIView {
   @objc public static let severe: PrebidMobile.LogLevel
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedConfiguration : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedConfiguration : ObjectiveC.NSObject {
   @objc public var reward: PrebidMobile.ORTBRewardedReward?
   @objc public var completion: PrebidMobile.ORTBRewardedCompletion?
   @objc public var close: PrebidMobile.ORTBRewardedClose?
@@ -1140,10 +1145,10 @@ extension PrebidMobile.LocationManager : CoreLocation.CLLocationManagerDelegate 
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PBMUserAgentService) @objcMembers public class UserAgentService : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers @objc(PBMUserAgentService) @objcMembers public class UserAgentService : ObjectiveC.NSObject {
   @objc public static let shared: PrebidMobile.UserAgentService
   @objc public var userAgent: Swift.String {
-    get
+    @objc get
   }
   @objc public func fetchUserAgent(completion: ((Swift.String) -> Swift.Void)? = nil)
   @objc deinit
@@ -1176,6 +1181,11 @@ extension PrebidMobile.LocationManager : CoreLocation.CLLocationManagerDelegate 
   }
   @_Concurrency.MainActor @preconcurrency @objc public func modalManagerWillPresentModal()
   @_Concurrency.MainActor @preconcurrency @objc public func modalManagerDidDismissModal()
+  @_Concurrency.MainActor @preconcurrency @objc public func videoAdWasMuted()
+  @_Concurrency.MainActor @preconcurrency @objc public func videoAdWasUnmuted()
+  @_Concurrency.MainActor @preconcurrency @objc public func videoAdDidFinish()
+  @_Concurrency.MainActor @preconcurrency @objc public func videoAdDidPause()
+  @_Concurrency.MainActor @preconcurrency @objc public func videoAdDidResume()
   @objc deinit
 }
 @objc public class RewardedVideoAdUnit : PrebidMobile.AdUnit, PrebidMobile.VideoBasedAdUnitProtocol {
@@ -1245,6 +1255,7 @@ extension PrebidMobile.LocationManager : CoreLocation.CLLocationManagerDelegate 
     @objc set
   }
   @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any PrebidMobile.BannerViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency weak public var videoPlaybackDelegate: (any PrebidMobile.BannerViewVideoPlaybackDelegate)?
   @objc @_Concurrency.MainActor @preconcurrency public init(frame: CoreFoundation.CGRect, configID: Swift.String, adSize: CoreFoundation.CGSize, eventHandler: any PrebidMobile.BannerEventHandler)
   @objc @_Concurrency.MainActor @preconcurrency convenience public init(configID: Swift.String, eventHandler: any PrebidMobile.BannerEventHandler)
   @objc @_Concurrency.MainActor @preconcurrency convenience public init(frame: CoreFoundation.CGRect, configID: Swift.String, adSize: CoreFoundation.CGSize)
@@ -1253,6 +1264,8 @@ extension PrebidMobile.LocationManager : CoreLocation.CLLocationManagerDelegate 
   @objc @_Concurrency.MainActor @preconcurrency public func setStoredAuctionResponse(storedAuction: Swift.String)
   @objc @_Concurrency.MainActor @preconcurrency public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc @_Concurrency.MainActor @preconcurrency public func getImpORTBConfig() -> Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc @_Concurrency.MainActor @preconcurrency public func getGlobalORTBConfig() -> Swift.String?
   @objc @_Concurrency.MainActor @preconcurrency public func stopRefresh()
   @objc @_Concurrency.MainActor @preconcurrency public func setPluginEventDelegate(_ pluginEventDelegate: any PrebidMobile.PluginEventDelegate)
   @_Concurrency.MainActor @preconcurrency @objc public func trackImpression(forDisplayView: UIKit.UIView)
@@ -1267,7 +1280,7 @@ extension PrebidMobile.LocationManager : CoreLocation.CLLocationManagerDelegate 
     @objc get
   }
 }
-@_inheritsConvenienceInitializers @objc public class ORTBExtPrebidPassthrough : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBExtPrebidPassthrough : ObjectiveC.NSObject {
   @objc public var type: Swift.String?
   @objc public var adConfiguration: PrebidMobile.ORTBAdConfiguration?
   @objc public var sdkConfiguration: PrebidMobile.ORTBSDKConfiguration?
@@ -1337,7 +1350,10 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc public var prebidServerAccountId: Swift.String
   @objc public var auctionSettingsId: Swift.String?
   @objc public var pbsDebug: Swift.Bool
-  @objc public var customHeaders: [Swift.String : Swift.String]
+  @objc public var customHeaders: [Swift.String : Swift.String] {
+    @objc get
+    @objc set
+  }
   @objc public var storedBidResponses: [Swift.String : Swift.String]
   @objc weak public var eventDelegate: (any PrebidMobile.PrebidEventDelegate)?
   @objc public var shouldAssignNativeAssetID: Swift.Bool
@@ -1409,6 +1425,8 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc public func setExt(_ ext: [Swift.String : Any])
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc public func fetchDemand(completion: ((PrebidMobile.ResultCode) -> Swift.Void)?)
   @objc deinit
 }
@@ -1487,8 +1505,10 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   }
 }
 @objc(PBMAdPosition) public enum AdPosition : Swift.Int {
-  case undefined = 0
+  case undefined = -1
+  case unknown = 0
   case aboveTheFold = 1
+  @available(*, unavailable, message: "Deprecated in the OpenRTB standard.")
   case locked = 2
   case belowTheFold = 3
   case header = 4
@@ -1538,13 +1558,15 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   }
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc public init(configID: Swift.String, size: CoreFoundation.CGSize, mediationDelegate: any PrebidMobile.PrebidMediationDelegate)
   @objc public func fetchDemand(completion: ((PrebidMobile.ResultCode) -> Swift.Void)?)
   @objc public func stopRefresh()
   @objc public func adObjectDidFailToLoadAd(adObject: UIKit.UIView, with error: any Swift.Error)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBSkadnFidelity : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBSkadnFidelity : ObjectiveC.NSObject {
   @objc public var fidelity: Foundation.NSNumber?
   @objc public var signature: Swift.String?
   @objc public var nonce: Foundation.UUID?
@@ -1605,6 +1627,8 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc public func setGPID(_ gpid: Swift.String?)
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc deinit
 }
 @objc public protocol BannerEventLoadingDelegate : ObjectiveC.NSObjectProtocol {
@@ -1671,12 +1695,21 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc public func show(from controller: UIKit.UIViewController)
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalORTBConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalORTBConfig() -> Swift.String?
   @objc deinit
 }
 @objc(PBMOMSession) public protocol OMSession : ObjectiveC.NSObjectProtocol {
   @objc var eventTracker: any PrebidMobile.EventTrackerProtocol { get }
   @objc func start()
   @objc func addFriendlyObstruction(_ friendlyObstruction: UIKit.UIView, purpose: PrebidMobile.OpenMeasurementFriendlyObstructionPurpose)
+}
+@objc(PBMDisplayViewVideoPlaybackDelegate) public protocol DisplayViewVideoPlaybackDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func videoPlaybackDidPause()
+  @objc func videoPlaybackDidResume()
+  @objc func videoPlaybackWasMuted()
+  @objc func videoPlaybackWasUnmuted()
+  @objc func videoPlaybackDidComplete()
 }
 @objc public protocol PrebidMobileDisplayViewProtocol {
   @objc func loadAd()
@@ -1687,7 +1720,7 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(PBMArbitraryORTBService) @objcMembers public class ArbitraryORTBService : ObjectiveC.NSObject {
-  @objc public static func merge(sdkORTB: [Swift.String : Any], impORTB: Swift.String?, globalORTB: Swift.String?) -> [Swift.String : Any]
+  @objc public static func merge(sdkORTB: [Swift.String : Any], impORTB: Swift.String?, globalAdUnitORTB: Swift.String?, globalORTB: Swift.String?) -> [Swift.String : Any]
   @objc deinit
 }
 @objc(PBMAdViewManagerDelegate) public protocol AdViewManagerDelegate : ObjectiveC.NSObjectProtocol {
@@ -1708,6 +1741,8 @@ public typealias PrebidInitializationCallback = (PrebidMobile.PrebidInitializati
   @objc optional func videoAdDidFinish()
   @objc optional func videoAdWasMuted()
   @objc optional func videoAdWasUnmuted()
+  @objc optional func videoAdDidPause()
+  @objc optional func videoAdDidResume()
   @objc optional func adDidSendRewardedEvent()
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class NativeLink : ObjectiveC.NSObject {
@@ -1777,6 +1812,8 @@ extension Foundation.NSString {
   @objc public func getGPID() -> Swift.String?
   @objc public func setImpORTBConfig(_ ortbConfig: Swift.String?)
   @objc public func getImpORTBConfig() -> Swift.String?
+  @objc public func setGlobalOrtbConfig(_ ortbConfig: Swift.String?)
+  @objc public func getGlobalOrtbConfig() -> Swift.String?
   @objc public func setAutoRefreshMillis(time: Swift.Double)
   @objc public func stopAutoRefresh()
   @objc public func resumeAutoRefresh()
@@ -1924,7 +1961,7 @@ extension Swift.Dictionary where Key == Swift.String, Value == Any {
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedCompletion : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedCompletion : ObjectiveC.NSObject {
   @objc public var banner: PrebidMobile.ORTBRewardedCompletionBanner?
   @objc public var video: PrebidMobile.ORTBRewardedCompletionVideo?
   @objc override dynamic public init()
@@ -1959,7 +1996,7 @@ extension Swift.Dictionary where Key == Swift.String, Value == Any {
   @objc public func activateSKOverlayIfAvailable()
   @objc public func dismissSKOverlayIfAvailable()
 }
-@_inheritsConvenienceInitializers @objc public class ORTBRewardedClose : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBRewardedClose : ObjectiveC.NSObject {
   @objc public var postrewardtime: Foundation.NSNumber?
   @objc public var action: Swift.String?
   @objc override dynamic public init()
@@ -2025,6 +2062,10 @@ public let refreshIntervalDefault: Swift.Double
   }
   @objc public var gpid: Swift.String?
   @objc public var impORTBConfig: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var globalORTBConfig: Swift.String? {
     @objc get
     @objc set
   }
@@ -2101,7 +2142,7 @@ public let PREBID_MOBILE_RENDERER_NAME: Swift.String
   @objc public func openHiddenWebView()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBExtPrebidEvents : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBExtPrebidEvents : ObjectiveC.NSObject {
   @objc public var win: Swift.String?
   @objc public var imp: Swift.String?
   @objc override dynamic public init()
@@ -2209,7 +2250,7 @@ public let PREBID_MOBILE_RENDERER_NAME: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(PBMORTBBidExtSkadn) public class ORTBBidExtSkadn : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc(PBMORTBBidExtSkadn) open class ORTBBidExtSkadn : ObjectiveC.NSObject {
   @objc public var version: Swift.String?
   @objc public var network: Swift.String?
   @objc public var campaign: Foundation.NSNumber?
@@ -2225,7 +2266,7 @@ public let PREBID_MOBILE_RENDERER_NAME: Swift.String
   }
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class ORTBBidExtSkadnSKOverlay : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class ORTBBidExtSkadnSKOverlay : ObjectiveC.NSObject {
   @objc public var delay: Foundation.NSNumber?
   @objc public var endcarddelay: Foundation.NSNumber?
   @objc public var dismissible: Foundation.NSNumber?
@@ -2338,6 +2379,34 @@ public let PREBID_MOBILE_RENDERER_NAME: Swift.String
   @objc public func initialize(with ortbAdConfiguration: PrebidMobile.ORTBAdConfiguration?)
   @objc override dynamic public init()
   @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CustomModelObjects : ObjectiveC.NSObject {
+  public static func unregisterCustomType(_ type: any PrebidMobile.PBMJsonDecodable.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBAdConfiguration.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBBidExtSkadn.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBBidExtSkadnSKOverlay.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBBidResponseExt.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBBidResponseExtPrebid.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBExtPrebidEvents.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBExtPrebidPassthrough.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedClose.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedCompletion.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedCompletionBanner.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedCompletionVideo.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedCompletionVideoEndcard.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedConfiguration.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBRewardedReward.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBSDKConfiguration.Type)
+  public static func registerCustomType(_ type: PrebidMobile.ORTBSkadnFidelity.Type)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(PBMBannerViewVideoPlaybackDelegate) public protocol BannerViewVideoPlaybackDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func videoPlaybackDidPause(_ banner: PrebidMobile.BannerView)
+  @objc func videoPlaybackDidResume(_ banner: PrebidMobile.BannerView)
+  @objc func videoPlaybackWasMuted(_ banner: PrebidMobile.BannerView)
+  @objc func videoPlaybackWasUnmuted(_ banner: PrebidMobile.BannerView)
+  @objc func videoPlaybackDidComplete(_ banner: PrebidMobile.BannerView)
 }
 @objc public class NativeRequest : PrebidMobile.AdUnit {
   @objc public var version: Swift.String {
@@ -2542,6 +2611,7 @@ public typealias AdMarkupStringHandler = (_ adMarkupString: Swift.String?) -> Sw
   }
   @objc public var clickHandlerOverride: ((() -> Swift.Void) -> Swift.Void)?
   @objc public var impORTBConfig: Swift.String?
+  @objc public var globalORTBConfig: Swift.String?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -2629,6 +2699,7 @@ public typealias PrebidServerResponseCallback = (PrebidMobile.PrebidServerRespon
   @objc public static let shared: PrebidMobile.Utils
   @objc weak public var delegate: (any PrebidMobile.NativeAdDelegate)?
   @objc public func findNative(adObject: Swift.AnyObject)
+  @objc public func round(coordinates: CoreLocation.CLLocationCoordinate2D, precision: Foundation.NSNumber?) -> CoreLocation.CLLocationCoordinate2D
   @objc deinit
 }
 extension PrebidMobile.ORTBContentData : PrebidMobile.PBMJsonDecodable {}

@@ -11,6 +11,9 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PrebidSdkInitializer {
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class PrebidBidder : ObjectiveC.NSObject {
   @objc public var delegate: (any BlueStackSDK.BidderDelegate)?
   @objc required public init(parameters: [Swift.String : Any])
@@ -33,7 +36,4 @@ extension BlueStackSDK.BiddingAdType : @retroactive Swift.CustomStringConvertibl
   public var description: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class PrebidSdkInitializer {
-  @objc deinit
 }
