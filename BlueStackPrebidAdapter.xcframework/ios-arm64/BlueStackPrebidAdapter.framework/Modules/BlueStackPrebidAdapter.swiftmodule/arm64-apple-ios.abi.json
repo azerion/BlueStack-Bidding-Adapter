@@ -926,7 +926,7 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 9,
-      "value": "\"5.4.0.0\""
+      "value": "\"5.4.0.1\""
     },
     {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
