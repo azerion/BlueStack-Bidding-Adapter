@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackBiddingAdapter'
-s.version = '5.4.0'
+s.version = '5.4.1'
 s.static_framework = true
 s.license = 'MIT'
 s.platform = :ios, '13.0'
@@ -35,7 +35,7 @@ end
   
 s.subspec 'Prebid' do |prebid|
     prebid.vendored_frameworks =    'BlueStackPrebidAdapter.xcframework'
-    prebid.dependency               'PrebidMobile', '3.1.0'
+    prebid.dependency               'PrebidMobile', '3.2.1'
 end
   
 end
