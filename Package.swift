@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "5.4.0")
+        .package(url: "https://github.com/azerion/BlueStackSDK.git", from: "6.0.0")
     ],
     targets: [
         .target(

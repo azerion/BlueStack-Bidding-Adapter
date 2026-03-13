@@ -5,24 +5,23 @@
 import AdSupport
 @_exported import BlueStackBiddingAdapter
 import BlueStackSDK
-import BlueStackUtilities
 import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc(InAppHeaderBiddingAdapter) public class InAppHeaderBiddingAdapter : BlueStackSDK.MNGAdsAdapter {
+@objc(InAppHeaderBiddingAdapter) public class InAppHeaderBiddingAdapter : BlueStackSDK.AdsAdapter {
   @objc override dynamic public init(parameters: [Swift.AnyHashable : Any])
   @objc override dynamic public func releaseMemory()
   @objc override dynamic public func enableDebugLog(_ enabled: Swift.Bool)
-  @objc override dynamic public func createBanner(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.MNGPreference!) throws
-  @objc override dynamic public func createInterstitial(withPreferences preferences: BlueStackSDK.MNGPreference!, autoDisplayed: Swift.Bool) throws
+  @objc override dynamic public func createBanner(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.Preference!) throws
+  @objc override dynamic public func createInterstitial(withPreferences preferences: BlueStackSDK.Preference!, autoDisplayed: Swift.Bool) throws
   @objc override dynamic public func isInterstitialReady() -> Swift.Bool
   @objc override dynamic public func displayInterstitial() -> Swift.Bool
   @objc override dynamic public func showAd(fromRootViewController rootViewController: UIKit.UIViewController!, animated flag: Swift.Bool)
-  @objc override dynamic public func createInfeed(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.MNGPreference!) throws
-  @objc override dynamic public func loadRewardedVideoAd(withPreferences preferences: BlueStackSDK.MNGPreference!)
-  @objc override dynamic public func createNative(withPreferences preferences: BlueStackSDK.MNGPreference!, withCover cover: Swift.Bool) throws
+  @objc override dynamic public func createInfeed(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.Preference!) throws
+  @objc override dynamic public func loadRewardedVideoAd(withPreferences preferences: BlueStackSDK.Preference!)
+  @objc override dynamic public func createNative(withPreferences preferences: BlueStackSDK.Preference!, withCover cover: Swift.Bool) throws
   @objc deinit
 }
 extension BlueStackBiddingAdapter.InAppHeaderBiddingAdapter : BlueStackSDK.BiddingBannerAdDelegate {

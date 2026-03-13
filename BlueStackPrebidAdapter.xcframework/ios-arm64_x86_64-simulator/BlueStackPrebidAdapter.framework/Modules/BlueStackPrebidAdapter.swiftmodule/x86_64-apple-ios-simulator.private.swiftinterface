@@ -4,13 +4,15 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 @_exported import BlueStackPrebidAdapter
 import BlueStackSDK
-import BlueStackUtilities
 import Foundation
 import PrebidMobile
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PrebidSdkInitializer {
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class PrebidBidder : ObjectiveC.NSObject {
   @objc public var delegate: (any BlueStackSDK.BidderDelegate)?
   @objc required public init(parameters: [Swift.String : Any])
@@ -21,8 +23,8 @@ extension BlueStackPrebidAdapter.PrebidBidder : BlueStackSDK.Bidder {
   @objc dynamic public func fetchBid(_ bidRequest: BlueStackSDK.BidRequest)
   @objc dynamic public func destroy()
 }
-extension BlueStackPrebidAdapter.PrebidBidder : BlueStackSDK.BlueStackAdapterInitializable {
-  @objc dynamic public func initialize(withConfig adapterInitConfig: [Swift.AnyHashable : Any]?, with delegate: (any BlueStackSDK.BlueStackAdapterInitializationDelegate)?)
+extension BlueStackPrebidAdapter.PrebidBidder : BlueStackSDK.MediationAdapterInitializable {
+  @objc dynamic public func initialize(withConfig adapterInitConfig: [Swift.AnyHashable : Any]?, with delegate: (any BlueStackSDK.MediationAdapterInitializationDelegate)?)
 }
 extension BlueStackPrebidAdapter.PrebidBidder : PrebidMobile.PrebidMediationDelegate {
   @objc dynamic public func setUpAdObject(with values: [Swift.String : Any]) -> Swift.Bool
@@ -33,7 +35,4 @@ extension BlueStackSDK.BiddingAdType : @retroactive Swift.CustomStringConvertibl
   public var description: Swift.String {
     get
   }
-}
-@_hasMissingDesignatedInitializers public class PrebidSdkInitializer {
-  @objc deinit
 }
