@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackBiddingAdapter'
-s.version = '6.0.0'
+s.version = '6.0.1'
 s.static_framework = true
 s.license = 'MIT'
 s.platform = :ios, '13.0'
@@ -16,7 +16,7 @@ s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/s
 s.vendored_frameworks = "BlueStackBiddingAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
-s.dependency 'BlueStack-SDK', '>=6.0.0'
+s.dependency 'BlueStack-SDK', '>=6.0.0', '< 6.1.0'
 
 s.pod_target_xcconfig =
 {
