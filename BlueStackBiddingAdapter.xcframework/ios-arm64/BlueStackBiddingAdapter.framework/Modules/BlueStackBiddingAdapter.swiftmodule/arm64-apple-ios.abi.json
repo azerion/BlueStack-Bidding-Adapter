@@ -40,6 +40,13 @@
       },
       {
         "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -47,6 +54,139 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
       },
       {
         "kind": "Import",
@@ -147,37 +287,6 @@
             "moduleName": "BlueStackBiddingAdapter",
             "overriding": true,
             "objc_name": "releaseMemory",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableDebugLog",
-            "printedName": "enableDebugLog(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)enableDebugLog:",
-            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C14enableDebugLogyySbF",
-            "moduleName": "BlueStackBiddingAdapter",
-            "overriding": true,
-            "objc_name": "enableDebugLog:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -939,13 +1048,6 @@
       },
       {
         "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -953,139 +1055,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
       },
       {
         "kind": "TypeDecl",
@@ -1183,11 +1152,60 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 329,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 464,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 25,
+      "value": "\"BlueStackBiddingAdapter\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 21,
+      "value": "\"BiddingAdapterError\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 21,
+      "value": "\"BiddingAdapterDebug\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/InAppHeaderBiddingAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/ErrorUtils.swift",
+      "kind": "Dictionary",
+      "offset": 3351,
+      "length": 3,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 9,
-      "value": "\"5.4.0.1\""
+      "value": "\"5.4.0.2\""
     },
     {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
@@ -1349,55 +1367,6 @@
       "offset": 1439,
       "length": 37,
       "value": "\"BlueStackPrebidAdapter.PrebidBidder\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/ErrorUtils.swift",
-      "kind": "Dictionary",
-      "offset": 3351,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/InAppHeaderBiddingAdapter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 359,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 25,
-      "value": "\"BlueStackBiddingAdapter\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2521,
-      "length": 21,
-      "value": "\"BiddingAdapterError\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2643,
-      "length": 21,
-      "value": "\"BiddingAdapterDebug\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
-      "kind": "Array",
-      "offset": 329,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
-      "kind": "Array",
-      "offset": 464,
-      "length": 2,
-      "value": "[]"
     }
   ]
 }
