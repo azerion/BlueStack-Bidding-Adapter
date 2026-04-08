@@ -26,91 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PrebidMobile",
-        "printedName": "PrebidMobile",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "PrebidMobile",
-        "printedName": "PrebidMobile",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackPrebidAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "BlueStackUtilities",
         "printedName": "BlueStackUtilities",
         "declKind": "Import",
@@ -813,6 +728,91 @@
         "moduleName": "BlueStackPrebidAdapter"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PrebidMobile",
+        "printedName": "PrebidMobile",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackPrebidAdapter"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BiddingAdType",
         "printedName": "BiddingAdType",
@@ -908,6 +908,55 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/ErrorUtils.swift",
+      "kind": "Dictionary",
+      "offset": 4112,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 24,
+      "value": "\"BlueStackPrebidAdapter\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1983,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 11,
+      "value": "\"bluestack\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
+      "kind": "Dictionary",
+      "offset": 1069,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 50,
+      "value": "\"<VAST\\s.*version\\s*=\\s*[\"'].*[\"'](\\s.*|)?>\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 18,
+      "value": "\"\\bmraid\\.js\\b\""
+    },
+    {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Config\/PrebidConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 575,
@@ -926,7 +975,7 @@
       "kind": "StringLiteral",
       "offset": 155,
       "length": 9,
-      "value": "\"5.4.0.1\""
+      "value": "\"5.4.0.2\""
     },
     {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
@@ -1109,55 +1158,6 @@
       "offset": 1559,
       "length": 16,
       "value": "\"banner_ad_size\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/ErrorUtils.swift",
-      "kind": "Dictionary",
-      "offset": 4112,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 245,
-      "length": 24,
-      "value": "\"BlueStackPrebidAdapter\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 1983,
-      "length": 7,
-      "value": "\"error\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
-      "kind": "StringLiteral",
-      "offset": 528,
-      "length": 11,
-      "value": "\"bluestack\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
-      "kind": "Dictionary",
-      "offset": 1069,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 199,
-      "length": 50,
-      "value": "\"<VAST\\s.*version\\s*=\\s*[\"'].*[\"'](\\s.*|)?>\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 18,
-      "value": "\"\\bmraid\\.js\\b\""
     }
   ]
 }
