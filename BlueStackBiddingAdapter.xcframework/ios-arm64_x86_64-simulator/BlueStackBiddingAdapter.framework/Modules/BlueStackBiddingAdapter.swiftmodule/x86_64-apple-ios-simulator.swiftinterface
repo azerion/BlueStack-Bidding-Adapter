@@ -13,7 +13,6 @@ import _SwiftConcurrencyShims
 @objc(InAppHeaderBiddingAdapter) public class InAppHeaderBiddingAdapter : BlueStackSDK.AdsAdapter {
   @objc override dynamic public init(parameters: [Swift.AnyHashable : Any])
   @objc override dynamic public func releaseMemory()
-  @objc override dynamic public func enableDebugLog(_ enabled: Swift.Bool)
   @objc override dynamic public func createBanner(inFrame frame: CoreFoundation.CGRect, withPreferences preferences: BlueStackSDK.Preference!) throws
   @objc override dynamic public func createInterstitial(withPreferences preferences: BlueStackSDK.Preference!, autoDisplayed: Swift.Bool) throws
   @objc override dynamic public func isInterstitialReady() -> Swift.Bool

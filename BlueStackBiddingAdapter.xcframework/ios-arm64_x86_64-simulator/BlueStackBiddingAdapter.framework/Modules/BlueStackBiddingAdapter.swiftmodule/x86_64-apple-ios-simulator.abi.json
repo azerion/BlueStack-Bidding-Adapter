@@ -23,53 +23,6 @@
       },
       {
         "kind": "Import",
-        "name": "MobileAdsUtilities",
-        "printedName": "MobileAdsUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "MobileAdsUtilities",
-        "printedName": "MobileAdsUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -151,10 +104,57 @@
       },
       {
         "kind": "Import",
+        "name": "MobileAdsUtilities",
+        "printedName": "MobileAdsUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "BlueStackSDK",
         "printedName": "BlueStackSDK",
         "declKind": "Import",
         "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MobileAdsUtilities",
+        "printedName": "MobileAdsUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -295,37 +295,6 @@
             "moduleName": "BlueStackBiddingAdapter",
             "overriding": true,
             "objc_name": "releaseMemory",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableDebugLog",
-            "printedName": "enableDebugLog(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@BlueStackBiddingAdapter@objc(cs)InAppHeaderBiddingAdapter(im)enableDebugLog:",
-            "mangledName": "$s23BlueStackBiddingAdapter011InAppHeadercD0C14enableDebugLogyySbF",
-            "moduleName": "BlueStackBiddingAdapter",
-            "overriding": true,
-            "objc_name": "enableDebugLog:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1219,7 +1188,7 @@
       "kind": "StringLiteral",
       "offset": 193,
       "length": 9,
-      "value": "\"6.0.0.0\""
+      "value": "\"6.0.0.1\""
     },
     {
       "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
