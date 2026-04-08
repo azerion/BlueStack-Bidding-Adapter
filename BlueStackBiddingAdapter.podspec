@@ -16,7 +16,7 @@ s.documentation_url = 'https://developers.bluestack.app/ios/mediation/primairy/s
 s.vendored_frameworks = "BlueStackBiddingAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
-s.dependency 'BlueStack-SDK', '>= 5.4.0', '< 6.0.0'
+s.dependency 'BlueStack-SDK', '>= 5.4.0', '< 5.5.0'
 
 s.pod_target_xcconfig =
 {
