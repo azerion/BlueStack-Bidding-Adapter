@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'Azerion'
 s.name = 'BlueStackBiddingAdapter'
-s.version = '6.0.1'
+s.version = '6.0.2'
 s.static_framework = true
 s.license = 'MIT'
 s.platform = :ios, '13.0'

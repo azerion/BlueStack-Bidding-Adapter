@@ -932,252 +932,252 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Config\/PrebidConfiguration.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Config\/PrebidConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 584,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Config\/PrebidConfiguration.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Config\/PrebidConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 624,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 9,
-      "value": "\"6.0.0.1\""
+      "value": "\"6.0.0.2\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 9,
       "value": "\"PBM_BID\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 20,
       "value": "\"PBM_TARGETING_INFO\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 7,
       "value": "\"hb_pb\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 429,
       "length": 26,
       "value": "\"com.prebid.adapter.error\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 3,
       "value": "999"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 616,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 709,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 795,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 836,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 887,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 928,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 975,
       "length": 4,
       "value": "1009"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1022,
       "length": 4,
       "value": "1010"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 4,
       "value": "1011"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1153,
       "length": 9,
       "value": "\"account\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1191,
       "length": 8,
       "value": "\"server\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1230,
       "length": 10,
       "value": "\"adLoader\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1279,
       "length": 20,
       "value": "\"share_geo_location\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1336,
       "length": 18,
       "value": "\"is_debug_enabled\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 17,
       "value": "\"display_manager\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1452,
       "length": 25,
       "value": "\"display_manager_version\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1515,
       "length": 9,
       "value": "\"request\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1559,
       "length": 16,
       "value": "\"banner_ad_size\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/ErrorUtils.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/ErrorUtils.swift",
       "kind": "Dictionary",
       "offset": 4112,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 254,
       "length": 15,
       "value": "\"PrebidAdapter\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Logger+Extension.swift",
       "kind": "StringLiteral",
       "offset": 1983,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 11,
       "value": "\"bluestack\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/PrebidBidder.swift",
       "kind": "Dictionary",
       "offset": 1078,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 50,
       "value": "\"<VAST\\s.*version\\s*=\\s*[\"'].*[\"'](\\s.*|)?>\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackPrebidAdapter\/BlueStackPrebidAdapter\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 296,
       "length": 18,
