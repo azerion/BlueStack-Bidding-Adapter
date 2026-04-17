@@ -30,190 +30,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackSDK",
-        "printedName": "BlueStackSDK",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
-        "name": "BlueStackUtilities",
-        "printedName": "BlueStackUtilities",
-        "declKind": "Import",
-        "moduleName": "BlueStackBiddingAdapter"
-      },
-      {
-        "kind": "Import",
         "name": "AdSupport",
         "printedName": "AdSupport",
         "declKind": "Import",
@@ -1048,6 +864,190 @@
       },
       {
         "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackSDK",
+        "printedName": "BlueStackSDK",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "BlueStackUtilities",
+        "printedName": "BlueStackUtilities",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlueStackBiddingAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1152,221 +1152,221 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
-      "kind": "Array",
-      "offset": 329,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
-      "kind": "Array",
-      "offset": 464,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 25,
-      "value": "\"BlueStackBiddingAdapter\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2521,
-      "length": 21,
-      "value": "\"BiddingAdapterError\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
-      "kind": "StringLiteral",
-      "offset": 2643,
-      "length": 21,
-      "value": "\"BiddingAdapterDebug\""
-    },
-    {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/InAppHeaderBiddingAdapter.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/InAppHeaderBiddingAdapter.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/ErrorUtils.swift",
-      "kind": "Dictionary",
-      "offset": 3351,
-      "length": 3,
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 25,
+      "value": "\"BlueStackBiddingAdapter\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 21,
+      "value": "\"BiddingAdapterError\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Logger+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 2643,
+      "length": 21,
+      "value": "\"BiddingAdapterDebug\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 329,
+      "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Auctioneer.swift",
+      "kind": "Array",
+      "offset": 464,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 9,
-      "value": "\"5.4.0.2\""
+      "value": "\"5.4.0.3\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 36,
       "value": "\"com.bluestackbidding.adapter.error\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 425,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 513,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 560,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 607,
       "length": 4,
       "value": "1006"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 641,
       "length": 4,
       "value": "1007"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 682,
       "length": 4,
       "value": "1008"
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 8,
       "value": "\"params\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 800,
       "length": 3,
       "value": "\"s\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 834,
       "length": 10,
       "value": "\"adLoader\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 877,
       "length": 12,
       "value": "\"impression\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 923,
       "length": 13,
       "value": "\"bannerFrame\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 25,
       "value": "\"supplyChainObjectString\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 10,
       "value": "\"adServer\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1085,
       "length": 17,
       "value": "\"display_manager\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1146,
       "length": 25,
       "value": "\"display_manager_version\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1209,
       "length": 9,
       "value": "\"request\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1253,
       "length": 16,
       "value": "\"banner_ad_size\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1338,
       "length": 14,
       "value": "\"AmazonBidder\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 39,
       "value": "\"BlueStackEquativAdapter.EquativBidder\""
     },
     {
-      "filePath": "\/Users\/shadman\/Projects\/azerion\/bluestack-mediation-ios\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 37,
       "value": "\"BlueStackPrebidAdapter.PrebidBidder\""
+    },
+    {
+      "filePath": "\/Users\/shadman\/Projects\/azerion\/primary-adapters\/bluestack-mediation-bidding\/BlueStackBiddingAdapter\/BlueStackBiddingAdapter\/ErrorUtils.swift",
+      "kind": "Dictionary",
+      "offset": 3351,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }
