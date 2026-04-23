@@ -23,7 +23,6 @@ let package = Package(
             name: "BlueStackBiddingAdapterTarget",
             dependencies: [
                 .target(name: "BlueStackBiddingAdapter", condition: .when(platforms: [.iOS])),
-                .target(name: "BlueStackPrebidAdapter", condition: .when(platforms: [.iOS])),
                 .target(name: "PrebidMobile", condition: .when(platforms: [.iOS])),
                 .target(name: "OMSDK_Prebidorg", condition: .when(platforms: [.iOS])),
                 .product(name: "BlueStackSDK", package: "BlueStackSDK", condition: .when(platforms: [.iOS]))
@@ -33,10 +32,6 @@ let package = Package(
         .binaryTarget(
             name: "BlueStackBiddingAdapter",
             path: "BlueStackBiddingAdapter.xcframework"
-        ),
-        .binaryTarget(
-            name: "BlueStackPrebidAdapter",
-            path: "BlueStackPrebidAdapter.xcframework"
         ),
         .binaryTarget(
             name: "PrebidMobile",
