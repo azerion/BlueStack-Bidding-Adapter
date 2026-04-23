@@ -17,6 +17,7 @@ s.vendored_frameworks = "BlueStackBiddingAdapter.xcframework"
 s.ios.deployment_target = '13.0'
 
 s.dependency 'BlueStack-SDK', '>=6.0.0', '< 6.1.0'
+s.dependency 'PrebidMobile', '3.2.1'
 
 s.pod_target_xcconfig =
 {
@@ -26,17 +27,5 @@ s.pod_target_xcconfig =
   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386'
 }
 
-s.default_subspec = 'Bidding'
-
-s.subspec 'Bidding' do |bidding|
-    bidding.vendored_frameworks = 'BlueStackBiddingAdapter.xcframework'
-    bidding.dependency    'BlueStackBiddingAdapter/Prebid'
-end
-  
-s.subspec 'Prebid' do |prebid|
-    prebid.vendored_frameworks =    'BlueStackPrebidAdapter.xcframework'
-    prebid.dependency               'PrebidMobile', '3.2.1'
-end
-  
 end
   
