@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/azerion/BlueStackSDK.git",
-            .upToNextMinor(from: "5.4.0")
+            .upToNextMinor(from: "5.4.2")
         )
     ],
     targets: [
