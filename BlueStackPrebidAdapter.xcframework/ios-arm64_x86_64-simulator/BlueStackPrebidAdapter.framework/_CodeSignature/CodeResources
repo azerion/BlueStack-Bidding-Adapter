@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5u98hsSEZjze/aLna1CJa+30gGw=
+		15LKIAVVfvW+NS0ZsFx8FmuZdwI=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		UiRrAbZAPlZZFDK6aERT7bGss2g=
+		i5/mU+/2pnjFOZUW1EACMz8iVEE=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NfujrJyl1d5DQwehEK1ZDWFgdaU=
+		ybcXY/R0sjz3IXjmFylyS/L1Als=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NfujrJyl1d5DQwehEK1ZDWFgdaU=
+		ybcXY/R0sjz3IXjmFylyS/L1Als=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WmJQj8u2KU/qKBAlEjncbADJedQ=
+		YC/ar6U0OnaXwngaoOE7qR5Lyng=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		UiRrAbZAPlZZFDK6aERT7bGss2g=
+		i5/mU+/2pnjFOZUW1EACMz8iVEE=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1Nlm1yolPm0H3GFTjI8a5oOLlGw=
+		F2oiXGLX4szTqzJXpuHel2vdryM=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1Nlm1yolPm0H3GFTjI8a5oOLlGw=
+		F2oiXGLX4szTqzJXpuHel2vdryM=
 		</data>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a0k1Oq738l9laG697OfL4KeDCo8=
+		udG0wZn+6LF0cvUDdupEo4DfhVY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,22 +74,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UiRrAbZAPlZZFDK6aERT7bGss2g=
+			i5/mU+/2pnjFOZUW1EACMz8iVEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQr+Sw/H0NoRr+Zin9PR/HHcbNgK+UVjXVAOZmAeh9Y=
+			T27uAX4/00jMDbQlBJM5aOyb77w7HfUXdTvBVFnv8Qc=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NfujrJyl1d5DQwehEK1ZDWFgdaU=
+			ybcXY/R0sjz3IXjmFylyS/L1Als=
 			</data>
 			<key>hash2</key>
 			<data>
-			PmUd7do4hEQghRWI8oR2Y/SsW0s9B9lqAaTUuXUlT4o=
+			DtYt485TITElg1XI3BLoCNvl5C2zk0n1FDchW5LiVDU=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -107,44 +107,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NfujrJyl1d5DQwehEK1ZDWFgdaU=
+			ybcXY/R0sjz3IXjmFylyS/L1Als=
 			</data>
 			<key>hash2</key>
 			<data>
-			PmUd7do4hEQghRWI8oR2Y/SsW0s9B9lqAaTUuXUlT4o=
+			DtYt485TITElg1XI3BLoCNvl5C2zk0n1FDchW5LiVDU=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WmJQj8u2KU/qKBAlEjncbADJedQ=
+			YC/ar6U0OnaXwngaoOE7qR5Lyng=
 			</data>
 			<key>hash2</key>
 			<data>
-			KA0F+Rmj02l3adL5Ttq2HqVG7AkyNCpJ0LKAlUJRZKc=
+			51veea25xTE7QqFtQnZCNK+kj82VcHMuPbGZdqcDSoA=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UiRrAbZAPlZZFDK6aERT7bGss2g=
+			i5/mU+/2pnjFOZUW1EACMz8iVEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQr+Sw/H0NoRr+Zin9PR/HHcbNgK+UVjXVAOZmAeh9Y=
+			T27uAX4/00jMDbQlBJM5aOyb77w7HfUXdTvBVFnv8Qc=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1Nlm1yolPm0H3GFTjI8a5oOLlGw=
+			F2oiXGLX4szTqzJXpuHel2vdryM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aDSRE73XfSki4yN3jDWaSwRVNFE4+NNNbRlEuCWpXQ4=
+			jQdXzwAL4nN1wFW8COpuvHLMc5G4w4WT5Jblwsqf5Jw=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -162,22 +162,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1Nlm1yolPm0H3GFTjI8a5oOLlGw=
+			F2oiXGLX4szTqzJXpuHel2vdryM=
 			</data>
 			<key>hash2</key>
 			<data>
-			aDSRE73XfSki4yN3jDWaSwRVNFE4+NNNbRlEuCWpXQ4=
+			jQdXzwAL4nN1wFW8COpuvHLMc5G4w4WT5Jblwsqf5Jw=
 			</data>
 		</dict>
 		<key>Modules/BlueStackPrebidAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0k1Oq738l9laG697OfL4KeDCo8=
+			udG0wZn+6LF0cvUDdupEo4DfhVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			SL93H0EV+KH+nUW8DEXiOQ7GXmMDWeA6JvRCozufQr4=
+			+tgJASNsoBGiC5xINFBja6pf0uNT1vYS3Y9FTKoYsM0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
