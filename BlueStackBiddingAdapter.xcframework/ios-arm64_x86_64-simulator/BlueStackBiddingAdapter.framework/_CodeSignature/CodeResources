@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dt353oNlLvvSGTlUdW5oYaOK0Bg=
+		BcSB69QnNdd75/B+KflQekePtC4=
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		/3Sp5io4vh9s27+EaOnIZuv3GZI=
+		UqA2YxHf0MwK3qDgX4zB28YkLHQ=
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hlokFit8kyGuYudE8kdOeg+fMII=
+		4pCfwfdh2L2wSgrAZfH6UXRn1iQ=
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/3Sp5io4vh9s27+EaOnIZuv3GZI=
+		UqA2YxHf0MwK3qDgX4zB28YkLHQ=
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CqA0ILrAADnKzAUuUbFBjnrrkbE=
+		LIkmjxWbCepMevYi9nblPwTJ9wI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/3Sp5io4vh9s27+EaOnIZuv3GZI=
+			UqA2YxHf0MwK3qDgX4zB28YkLHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			di9CRcMBVw89JOBpa2etsk2iZtNf6EEoMPh7VttnjRc=
+			n5penhuckmRzFDlEIPi2jKUYxfbRf9QQEZnMH2uLVms=
 			</data>
 		</dict>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,22 +118,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hlokFit8kyGuYudE8kdOeg+fMII=
+			4pCfwfdh2L2wSgrAZfH6UXRn1iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wZ+Jhclxs4vidj/qWHknfRMKTnkgyyduZmACkqeZ54o=
+			YL3gGbzAIqCDNHjR972W+7yokgavxeBCC9TRxut4iec=
 			</data>
 		</dict>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/3Sp5io4vh9s27+EaOnIZuv3GZI=
+			UqA2YxHf0MwK3qDgX4zB28YkLHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			di9CRcMBVw89JOBpa2etsk2iZtNf6EEoMPh7VttnjRc=
+			n5penhuckmRzFDlEIPi2jKUYxfbRf9QQEZnMH2uLVms=
 			</data>
 		</dict>
 		<key>Modules/BlueStackBiddingAdapter.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CqA0ILrAADnKzAUuUbFBjnrrkbE=
+			LIkmjxWbCepMevYi9nblPwTJ9wI=
 			</data>
 			<key>hash2</key>
 			<data>
-			AXD8OUXUbCZJYX1mCkpyVnlKJX97AygDB591EUrKphc=
+			9N/zHKv2WyRcP7eOTEgR7piz7I58P2zmi5Ct0cSGlt8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
